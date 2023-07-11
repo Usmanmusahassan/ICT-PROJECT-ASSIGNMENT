@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my first webpage</title>
+        <style>
+                body{
+                    background-color: chocolate;
+                }
+                #mt {
+                    font-size: 50px;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    text-align:center;
+                }
+                label{
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    background-color: brown;
+                    border: 3px solid black;
+                    margin-right: 3px;
+                    color: honeydew;
+                }
+                #demo{
+                    margin: 15px 15px 10px;
+                }
+                fieldset {
+                          width: 100%;
+                          height: 100%;
+                          background-color: goldenrod;
+                          text-align: center;
+                }
+                legend{
+                    background-color: darkred;
+                    color: darksalmon;
+                    width: 40px;
+                    border-radius: 20px;
+                }
+                p{
+                  text-decoration: dashed;
+                  text-transform: uppercase;    
+                }
+                #btn {
+                    margin-top: 110px;
+                    margin-bottom: 50px;
+                    width: 90px;
+                    height: 30px;
+                    background-color: transparent;
+                }
+                #btn:hover{
+                    background-color: red;
+                    transform: 1s;               
+                }
+                form{
+                    width: 100%;
+                    height: 100%;
+                }
+                input{
+                    width: 50%;
+                    height: 50%;
+                }
+        </style>
+    </head>
+    <body>
+        <p id='mt'>REGISTER HERE</p>
+        <center>
+        <form>
+        <fieldset>
+                  <legend>form</legend>
+                  <p>kindly register here</p>
+        <label for="demo"> name:</label>
+        <input type="text" id="demo" placeholder="name"></br>
+        <label for="demo">number:</label>
+        <input type="tel" id="demo" placeholder="number"></br>
+        <label for="demo">email:</label>
+        <input type="email" id="demo" placeholder="email"></br>
+        <label for="demo">password</label>
+        <input type="password" id='demo'placeholder="password"></br>
+        <button type ="submit" id="demo" placeholder="button"> click here</button></br>
+        </fieldset></br>
+       </center>
+        </form>
+        <center>
+        <button id="btn">
+        <a href='home.html'>BACK</a>
+        </button>
+        </center>
+    </body>
+</html>

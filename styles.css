@@ -1,0 +1,133 @@
+body{
+    background-image: url("images/m3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display:flex;
+    background-color: burlywood;
+    padding: 2px;
+    border-bottom: darkslategrey;
+    border-radius: 20px;
+}
+#big{
+    font-size: 100px;
+}
+#menu, ul {
+     float: right;
+     margin-top: 10px;
+}
+ul li{
+
+    list-style: none;
+    display:inline-block;
+    padding:8px 12px;
+    float: left;
+}
+ul li :hover{
+    transition: -1s;
+    background-color:red;
+    color:burlywood;
+}
+.yu2{
+    width: 100px;
+    height: 70px;
+    border-radius: 50px;
+}
+.txt{
+    text-align: center;
+    color:floralwhite;
+    margin: 100px 0px 0px;
+    padding: 20px;
+    width: 100%;
+    font-weight: 500px;
+}
+#mt1{
+    margin-top: 30px;
+    display: inline-block;
+    color: tomato;
+    border: 2px solid #fff;
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    font-weight: 50px;
+    padding: 15px 28px;
+    text-transform: uppercase;
+    
+}
+#n1{
+    text-align: center;
+}
+#mt1:hover{
+    background-color: maroon;
+    transition: 2ms;
+}
+.mtc{
+    text-align: center;
+    display: inline-block;
+    padding: 20px 50px 20px;
+    background-color:gray;
+    margin-top: 200px;
+}
+p{
+    color:black;
+}
+.yu{
+    margin-left: 120px;
+     margin-top: 100px;
+     margin-bottom: 60px;
+     padding: 10px;
+}
+#nl{
+    color: khaki;
+}
+.txts{
+    background-color: beige;
+    color:black;
+}
+.text2{
+    background-color:darkslategrey;
+    text-decoration: dimgray;
+}
+.icon{
+    width: 60pxpx;
+    height: 50px;
+    border-radius: 30px;
+    padding: 30px;
+}
+#item{
+    background-color: black;
+    color: burlywood;
+    width: 55%;
+    height: 30%;
+    padding: 20px;
+    margin: 30px 10px 5%;
+    margin-top: 30px;
+    
+}
+.container{
+    background-color: peru;
+    width: 100%;
+    height: 20%;
+}
+#vid{
+    width: 100%;
+    height:10% ;
+}
+#nl{
+    font-size: 50px;
+}
+.btnn{
+    width: 250px;
+    height: 100px;
+    background-color: lime;
+    color: linen;
+    margin: 30px;
+    padding: 0px;
+    font-weight: 60px;
+    font-size: 30px;
+}
+.btnn:hover{
+    transition: 1s;
+    background-color: darkred;
+}
